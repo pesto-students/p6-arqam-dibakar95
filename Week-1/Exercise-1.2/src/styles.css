@@ -88,6 +88,26 @@ body {
   margin-left: 5px;
 }
 
+#tracks {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
+
+#tracks td,
+#tracks th {
+  padding: 8px;
+}
+
+#tracks td a {
+  border: 1px solid black;
+  text-decoration: none !important;
+}
+
+#tracks tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
 footer {
   width: 100%;
   background: rgb(38, 31, 157);
