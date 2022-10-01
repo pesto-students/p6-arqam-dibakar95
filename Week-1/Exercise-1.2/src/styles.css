@@ -31,6 +31,63 @@ body {
   display: block;
 }
 
+.content {
+  flex: 1;
+  margin-left: 50px;
+}
+
+.chart-content {
+  padding: 20px;
+  display: flex;
+  background-color: grey;
+  flex-direction: row;
+}
+
+.chart-content-right-container {
+  margin: 20px 80px;
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+}
+
+.chart-title {
+  font-size: x-large;
+  font-weight: 700;
+  color: white;
+}
+
+.chart-subTitle {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-subTitle span {
+  font-weight: 500;
+  color: white;
+}
+
+.chart-options {
+  display: flex;
+  margin-top: auto;
+}
+
+.chart-options-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.option-itm {
+  color: white;
+  margin: 0 auto 0 0;
+}
+.option-itm span {
+  margin-left: 5px;
+}
+
 footer {
   width: 100%;
   background: rgb(38, 31, 157);
