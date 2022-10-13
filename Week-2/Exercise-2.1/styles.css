@@ -40,3 +40,26 @@ html body {
   position: absolute;
   z-index: -1;
 }
+
+.wrapper:hover .square1 {
+  transform: rotate(90deg);
+  transform-origin: top left;
+  transition-duration: 2s;
+}
+.wrapper:hover .square3 {
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+  transition-duration: 2s;
+}
+
+.wrapper:hover .square2 {
+  transform: rotate(-90deg);
+  transform-origin: top right;
+  transition-duration: 2s;
+}
+
+.wrapper:hover .square4 {
+  transform: rotate(90deg);
+  transform-origin: bottom right;
+  transition-duration: 2s;
+}
