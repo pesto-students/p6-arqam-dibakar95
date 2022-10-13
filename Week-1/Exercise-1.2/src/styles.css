@@ -1,0 +1,146 @@
+html,
+body {
+  font-family: "Lato", sans-serif;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.sidenav {
+  height: 100%;
+  width: 50px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(208, 206, 206);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+}
+
+.content {
+  flex: 1;
+  margin-left: 50px;
+}
+
+.chart-content {
+  padding: 20px;
+  display: flex;
+  background-color: grey;
+  flex-direction: row;
+}
+
+.chart-content-right-container {
+  margin: 20px 80px;
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+}
+
+.chart-title {
+  font-size: x-large;
+  font-weight: 700;
+  color: white;
+}
+
+.chart-subTitle {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-subTitle span {
+  font-weight: 500;
+  color: white;
+}
+
+.chart-options {
+  display: flex;
+  margin-top: auto;
+}
+
+.chart-options-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.option-itm {
+  color: white;
+  margin: 0 auto 0 0;
+}
+.option-itm span {
+  margin-left: 5px;
+}
+
+#tracks {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
+
+#tracks td,
+#tracks th {
+  padding: 8px;
+}
+
+#tracks td a {
+  border: 1px solid black;
+  text-decoration: none !important;
+}
+
+#tracks tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+footer {
+  width: 100%;
+  background: rgb(38, 31, 157);
+  margin-top: 1.5rem;
+  flex-shrink: 0;
+  margin-left: 50px;
+}
+
+.footer-wrapper {
+  flex: 1;
+  display: flex;
+  height: 50px;
+  padding: 10px;
+}
+
+.footer-img img {
+  max-width: 50px;
+  max-height: 50px;
+}
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.footer-text span {
+  color: white;
+  font-weight: 400;
+}
+.footer-options {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  color: white;
+  justify-content: space-evenly;
+}
